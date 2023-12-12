@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Age calculator app</title>
+  <link rel = "stylesheet" href = "style.css"/> 
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+      <div class="box">
+
+        <div class="input-div">
+          <div class="sections">
+            <div class="input-sec">
+              <div class="sec-wrapper"> <!---- DAY -->
+                <div class="input-label">
+                  <h3 class = "label"> DAY </h3>
+
+                </div>
+
+                <div class="input-form">
+                  <div class="ifb">
+                    <input type = "text" placeholder = "DD" name = "day" class = "inday" maxlength = "2">
+                  </div>
+                  
+                </div>
+              </div>
+            </div> <!--- end of day -->
+
+            <div class="input-sec">
+              <div class="sec-wrapper"> <!---- MONTH -->
+                <div class="input-label">
+                  <h3 class = "label"> MONTH </h3>
+
+                </div>
+
+                <div class="input-form">
+                  <div class="ifb">
+                    <input type = "text" placeholder = "MM" name = "month" class = "inmonth" maxlength = "2">
+                  </div>
+                  
+                </div>
+              </div>
+            </div> <!--- end of MONTH -->
+
+
+
+            <div class="input-sec">
+              <div class="sec-wrapper"> <!---- YEAR -->
+                <div class="input-label">
+                  <h3 class = "label"> YEAR </h3>
+
+                </div>
+
+                <div class="input-form">
+                  <div class="ifb">
+                    <input type = "text" placeholder = "YYYY" name = "year" class = "inyear" maxlength = "4">
+                  </div>
+                  
+                </div>
+              </div>
+            </div> <!--- end of YEAR -->
+          </div>
+        </div>
+
+
+        <div class="button-div">
+            <div class="bd-wrapper">
+              <div class="line">
+              
+              </div>
+              
+              <div class="button-img">
+                <img class = "submit" src = "assets/images/icon-arrow.svg"/> 
+              </div>
+            </div>
+        </div>
+
+
+        <div class="results">
+          <div class="res-wrapper">
+            <div class="res-div">
+                <div class="res-left"><h1 class = "year textres"> -- </h1></div>
+                <div class="res-right"><h1 class = "normal"> years </h1></div>
+            </div>
+
+            <div class="res-div">
+              <div class="res-left"><h1 class = "month textres"> -- </h1></div>
+              <div class="res-right"><h1 class = "normal"> months </h1></div>
+          </div>
+
+          <div class="res-div">
+            <div class="res-left"><h1 class = "day textres"> -- </h1></div>
+            <div class="res-right"><h1 class = "normal"> days </h1></div>
+          </div>
+        </div>
+        </div>
+      </div>
+  </div>
+
+  
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Dale Bedania</a>.
+  </div>
+</body>
+
+<script src = "script.js"> </script> 
+</html>
